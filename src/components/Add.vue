@@ -13,6 +13,7 @@ export default {
     },
     methods:{
         add(){
+            // 我来啦
             this.$axios.post('http://localhost:3003/prolist',{
                 title:this.title
             }).then(res=>{
